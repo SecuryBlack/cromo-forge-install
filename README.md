@@ -1,6 +1,10 @@
 # CromoForge Install Worker
 
-Cloudflare Worker para servir el instalador oficial de CromoForge según el sistema operativo:
+Official Cloudflare Worker that dynamically serves the installation script for **CromoForge** based on the client User-Agent and operating system:
 
 - **Linux / macOS:** `curl -fsSL https://install.cromoforge.dev | sudo bash`
-- **Windows:** `irm https://install.cromoforge.dev | iex`
+- **Windows (PowerShell):** `irm https://install.cromoforge.dev | iex`
+
+## License
+
+Apache-2.0 License.
