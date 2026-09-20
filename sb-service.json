@@ -1,0 +1,8 @@
+{
+  "name": "CromoForge Installer",
+  "description": "Cloudflare Worker para el script de instalación de CromoForge",
+  "type": "wrangler",
+  "role": "installer",
+  "port": 8789,
+  "start": "npx wrangler dev --port 8789"
+}

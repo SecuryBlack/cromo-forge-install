@@ -1,0 +1,7 @@
+name = "cromo-forge-install"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+[[routes]]
+pattern = "install.cromoforge.dev/*"
+zone_name = "cromoforge.dev"
